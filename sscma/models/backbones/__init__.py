@@ -1,7 +1,7 @@
 # Copyright (c) Seeed Technology Co.,Ltd. All rights reserved.
 from .AxesNet import AxesNet
 from .EfficientNet import EfficientNet
-from .MobileNetv2 import MobileNetv2
+from .MobileNetv2 import MobileNetV2
 from .MobileNetv3 import MobileNetV3
 from .pfld_mobilenet_v2 import PfldMobileNetV2
 from .ShuffleNetV2 import ShuffleNetV2, CustomShuffleNetV2, FastShuffleNetV2
@@ -20,7 +20,7 @@ __all__ = [
     'ShuffleNetV2',
     'SqueezeNet',
     'EfficientNet',
-    'MobileNetv2',
+    'MobileNetV2',
     'MicroNet',
     "FastShuffleNetV2",
     'YOLOv5CSPDarknet',
